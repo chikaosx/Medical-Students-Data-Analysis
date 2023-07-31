@@ -2,7 +2,6 @@
 
 
 # Introduction
-## Medical Students Data - Summary Analysis
 This task focus on the insightful analysis of the Medical Students Data, focusing on key parameters and statistics to better understand the health profile of medical students at Chika's University.
 
 # Activity
@@ -35,6 +34,24 @@ Using the provided data, we are required to create Pivot Tables displaying the a
 3. Pivot tables
 
 # Raw Data
+The Medical Student Dataset, comprises 13 essential columns and an impressive 200,000 records. The dataset encompasses crucial parameters, providing invaluable insights into the health profile of our medical student population.
+
+The dataset includes the following columns:
+
+1. Student ID: A unique identifier for each medical student in the dataset.
+2. Age: The age of each student at the time of data collection.
+3. Height: The height of each student, providing anthropometric information.
+4. Weight: The weight of each student, essential for assessing body mass characteristics.
+5. Body Temperature: The recorded body temperature of each student, helping gauge health status.
+6. Diabetes: A binary attribute indicating whether a student has diabetes (Yes) or not (No).
+7. Cholesterol: Cholesterol levels of each student, a key indicator of cardiovascular health.
+8. Blood Type: The blood type of each student A, B, AB, O, aiding in blood group distribution analysis.
+9. Blood Pressure: The recorded blood pressure values for each student, essential for cardiovascular assessment.
+10. Gender: The gender classification of each student as male or female.
+11. BMI (Body Mass Index): Calculated BMI values for each student, a measure of body composition.
+12. Smoking: A binary attribute indicating whether a student smokes (Yes) or not (No).
+
+
 
 # Data Cleaning
 
