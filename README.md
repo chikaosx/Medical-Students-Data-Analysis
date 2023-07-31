@@ -127,7 +127,7 @@ To create this visualization, we utilized the "Insert" feature in Excel and sele
 
 To highlight the categories with the highest and smallest averages, we employed color-coding. The highest average was emphasized using a green color, while the smallest average was distinguished with a red color.
 
-![]()
+![](Average_BMI.PNG)
 
 3. 
 # Conclusion
