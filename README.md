@@ -51,7 +51,7 @@ The dataset includes the following columns:
 11. BMI (Body Mass Index): Calculated BMI values for each student, a measure of body composition.
 12. Smoking: A binary attribute indicating whether a student smokes (Yes) or not (No).
     
-![](medical students dataset.PNG)
+![](dataset.PNG)
 
 
 # Data Cleaning
