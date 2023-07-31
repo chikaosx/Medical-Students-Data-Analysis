@@ -149,6 +149,7 @@ We created this visualization using the "Insert" feature in Excel and selected t
 
 For highlighting purposes, we utilized green color to represent the category with the highest average, and red color to represent the category with the smallest average.
 ![](smoker.PNG)
+
 5. The visualization reveals that the number of students who have diabetes is also small.
 
 We created this visualization using the "Insert" feature in Excel, opting for the column chart as our preferred visualization type. The data source for this visualization was taken from "PivotTable5." To enhance the clarity of the chart, we formatted it by removing vertical axes, the legend, and gridlines, and also hid any unnecessary buttons.
