@@ -141,18 +141,18 @@ To highlight the categories with the highest and smallest averages, we employed 
 We created this visualization using the "Insert" feature in Excel and selected the column chart as our chosen visualization type. The data source for this visualization was taken from "PivotTable3." To enhance clarity, we formatted the chart by removing vertical axes, the legend, and gridlines, and also hid any unnecessary buttons for a cleaner presentation.
 
 To highlight the categories with the highest and lowest counts, we used color-coding. Blood group B, with the highest count, was represented in green, while blood group A, with the lowest count, was distinguished in red.
-![]()
+![](B_group.PNG)
 
 4. The visualization indicates that the number of students who smoke is very small.
 
 We created this visualization using the "Insert" feature in Excel and selected the column chart as our chosen visualization type. The data source for this visualization was taken from "PivotTable4." To improve the clarity of the chart, we formatted it by removing vertical axes, the legend, and gridlines, and also hid any unnecessary buttons.
 
 For highlighting purposes, we utilized green color to represent the category with the highest average, and red color to represent the category with the smallest average.
-
+![](smoker.PNG)
 5. The visualization reveals that the number of students who have diabetes is also small.
 
 We created this visualization using the "Insert" feature in Excel, opting for the column chart as our preferred visualization type. The data source for this visualization was taken from "PivotTable5." To enhance the clarity of the chart, we formatted it by removing vertical axes, the legend, and gridlines, and also hid any unnecessary buttons.
 
 To emphasize the categories with the highest and smallest averages, we utilized green color to represent the category with the highest average, while red color was used to distinguish the category with the smallest average.
-
+![](diabetes.PNG)
 # Conclusion
