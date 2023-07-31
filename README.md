@@ -118,7 +118,7 @@ Moving on to the categorical columns, such as gender, diabetes, blood type, and 
 2. Next, we added the "Diabetes" column to the value field of the pivot table to compute the total number of students in each category (diabetes and non-diabetes).
 
 3. Additionally, to focus solely on the total counts for "Yes" (students with diabetes) and "No" (students without diabetes), we removed the grand total from the pivot table. To do this, we right-clicked on the Pivot table, placed the cursor on Grand Total, and selected "Remove Grand Total."
-
+![](pivot_table.PNG)
 
 # Visualisation
 
