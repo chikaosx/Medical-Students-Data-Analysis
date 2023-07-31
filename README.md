@@ -134,6 +134,6 @@ To highlight the categories with the highest and smallest averages, we employed 
 To create this visualization, we utilized the "Insert" feature in Excel and selected the column chart as our preferred visualization type. The data source for this visualization was derived from "PivotTable2." After setting up the chart, we carefully formatted it by removing the vertical axes, legend, and gridlines, as well as hiding any unnecessary buttons for a cleaner display.
 
 To highlight the categories with the highest and smallest averages, we employed color-coding. The highest average was emphasized using a green color, while the smallest average was distinguished with a red color.
-![]()
+![](Average_Height.PNG)
 
 # Conclusion
