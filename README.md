@@ -1,6 +1,5 @@
 # Medical-Students-Data-Analysis
 
-
 # Introduction
 This task focus on the insightful analysis of the Medical Students Data, focusing on key parameters and statistics to better understand the health profile of medical students at Chika's University.
 
