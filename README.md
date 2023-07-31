@@ -64,7 +64,62 @@ However, for the BMI column, we employed a slightly different approach. To obtai
 Moving on to the categorical columns, such as gender, diabetes, blood type, and smoking, we utilized the Mode imputation technique. The Mode refers to the value that appears most frequently in each column. To determine the Mode, we obtained the unique values in each categorical column and used the =COUNTIF() function with a value in the column as a criteria. This process ensured that we assigned the most common value to the missing records, thereby preserving the integrity of the categorical distribution.
 
 # Data Manipulation
+- To compute the Average Values for Male and Female Students' Age, BMI, Temperature, Heart Rate, Blood Pressure, and Cholesterol, we employed a Pivot table as follows:
 
-# Pivot tables
+1. First, we created a Pivot table because our objective was to find the average for each category based on gender. To achieve this, we added the "Gender" column to the row field of the pivot table.
+
+2. Next, we included the columns "Age," "BMI," "Temperature," "Heart Rate," "Blood Pressure," and "Cholesterol" to the value field of the pivot table. This allowed the pivot table to automatically compute the total for each of these columns based on gender.
+
+3. To calculate the average values instead of the sum for each variable in the values field, we proceeded as follows:
+   a. Click on each variable (Age, BMI, Temperature, Heart Rate, Blood Pressure, and Cholesterol) in the values field of the pivot table.
+   b. Click on "Value Field Settings" for each variable.
+   c. In the Value Field Settings dialog box, select "Average" instead of "Sum" as the summary function.
+4. Moreover, we wanted to focus solely on the average values for each gender in the "Age," "BMI," "Temperature," "Heart Rate," "Blood Pressure," and "Cholesterol" columns. To achieve this, we removed the grand total from the pivot table by right-clicking on the Pivot table, placing the cursor on Grand Total, and selecting "Remove Grand Total."
+
+
+- To compute the Average Height and Weight for both Genders (rounded to two decimal places), we effectively utilized a Pivot table following these steps:
+
+1. We initiated the process by creating a Pivot table to attain the desired objective of finding the average for each category based on gender. In doing so, we added the "Gender" column to the row field of the pivot table.
+
+2. Subsequently, we included the "Height" and "Weight" columns in the value field of the pivot table. By doing this, the pivot table automatically computed the total for each of these columns based on gender.
+
+3. To ensure the calculation of average values rather than sums for each variable in the values field, we followed these steps:
+   a. Clicked on each variable (Height and Weight) in the values field of the pivot table.
+   b. Clicked on "Value Field Settings" for each variable.
+   c. In the Value Field Settings dialog box, we selected "Average" instead of "Sum" as the summary function.
+
+4. Additionally, we removed the grand total from the pivot table to focus solely on the average values for each gender in the "Height" and "Weight" columns. To do this, we right-clicked on the Pivot table, placed the cursor on Grand Total, and selected "Remove Grand Total."
+
+5. Finally, to ensure the average values were displayed with two decimal places, we applied proper number formatting:
+   a. Right-clicked on the Pivot table.
+   b. Selected "Number Formatting."
+   c. Set the decimal places to 2 in the Number Formatting dialog box.
+   
+- To compute the distribution of students across various blood groups, we employed a Pivot table using the following steps:
+
+1. We initiated the process by creating a Pivot table with the objective of finding the number of students in each blood group. To achieve this, we placed the "Blood Group" column into the row field, which created a record for each unique blood group in the column.
+
+2. Next, we placed the "Blood Group" column in the value field of the pivot table to compute the total number of students in each blood group.
+
+3. Additionally, we removed the grand total from the pivot table to focus solely on the total values for each blood group (A, B, AB, O). To do this, we right-clicked on the Pivot table, placed the cursor on Grand Total, and selected "Remove Grand Total."
+
+- To count the number of students who smoke and those who don't, we utilized a Pivot table following these steps:
+
+1. We started by creating a Pivot table with the objective of determining the count of students based on their smoking status. To achieve this, we placed the "Smoking" column into the row field, which created separate records for "Yes" (students who smoke) and "No" (students who don't smoke).
+
+2. Next, we added the "Smoking" column to the value field of the pivot table to compute the total number of students in each category (smokers and non-smokers).
+
+3. Additionally, to focus solely on the total counts for "Yes" (smokers) and "No" (non-smokers), we removed the grand total from the pivot table. To do this, we right-clicked on the Pivot table, placed the cursor on Grand Total, and selected "Remove Grand Total."
+
+- To count the number of students who have diabetes and those who don't, we utilized a Pivot table following these steps:
+
+1. We began by creating a Pivot table with the objective of determining the count of students based on their diabetes status. To achieve this, we placed the "Diabetes" column into the row field, which created separate records for "Yes" (students who have diabetes) and "No" (students who don't have diabetes).
+
+2. Next, we added the "Diabetes" column to the value field of the pivot table to compute the total number of students in each category (diabetes and non-diabetes).
+
+3. Additionally, to focus solely on the total counts for "Yes" (students with diabetes) and "No" (students without diabetes), we removed the grand total from the pivot table. To do this, we right-clicked on the Pivot table, placed the cursor on Grand Total, and selected "Remove Grand Total."
+
+
+# Visualisation
 
 # Conclusion
